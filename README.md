@@ -4,7 +4,7 @@ A simple Chrome extension that adds a red 1px solid border to all elements on a 
 
 ## Features
 
-- Toggle red borders on all elements with `Ctrl+Shift+B` (Windows/Linux) or `Ctrl+B` (Mac)
+- Toggle red borders on all elements with `Ctrl+Shift+B` (Windows/Linux/Ubuntu) or `Ctrl+B` (Mac)
 - Works on all websites
 - Borders are removed when toggled off
 - Visual debugging tool for web development
@@ -19,7 +19,7 @@ A simple Chrome extension that adds a red 1px solid border to all elements on a 
 ## Usage
 
 1. Navigate to any webpage
-2. Press `Ctrl+Shift+B` (Windows/Linux) or `Ctrl+B` (Mac) to toggle borders
+2. Press `Ctrl+Shift+B` (Windows/Linux/Ubuntu) or `Ctrl+B` (Mac) to toggle borders
 3. All elements will show a red 1px solid border
 4. Press the shortcut again to remove the borders
 
@@ -37,10 +37,11 @@ A simple Chrome extension that adds a red 1px solid border to all elements on a 
 To change the border style, edit the `style.textContent` line in `content.js`:
 
 ```javascript
-style.textContent = '* { border: 1px red solid !important; }';
+style.textContent = "* { border: 1px red solid !important; }";
 ```
 
 You can modify:
+
 - Border width: `1px` → `2px`, `3px`, etc.
 - Border color: `red` → `blue`, `green`, `#ff0000`, etc.
 - Border style: `solid` → `dashed`, `dotted`, etc.

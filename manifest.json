@@ -27,7 +27,7 @@
         "default": "Ctrl+Shift+B",
         "mac": "Ctrl+B"
       },
-      "description": "Toggle red borders on all elements"
+      "description": "Toggle red borders on all elements (Ctrl+Shift+B on Windows/Linux, Ctrl+B on Mac)"
     }
   },
   "content_security_policy": {
